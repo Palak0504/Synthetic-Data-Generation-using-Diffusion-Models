@@ -90,15 +90,15 @@ python evaluate.py
 📊 Results Summary
 Generative Models Comparison
 
-Metric	VAE	DCGAN	Diffusion
+Metric	           VAE  	      DCGAN           Diffusion
 
-FID Score	250.98	156.54 (Best)	203.44
+FID Score	         250.98	       156.54 (Best)	203.44
 
-SSIM	0.8099 (Best)	0.6585	0.4537
+SSIM	             0.8099 (Best) 0.6585	        0.4537
 
-LPIPS	0.1838	0.6247	0.7434
+LPIPS	             0.1838	       0.6247	        0.7434
 
-Inception Score	3.30	2.82	3.92 (Best)
+Inception Score	   3.30	         2.82	          3.92 (Best)
 
 Vision Transformer Classification
 
