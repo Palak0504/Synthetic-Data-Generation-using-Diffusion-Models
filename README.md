@@ -34,15 +34,21 @@ Learns latent space and generates smooth reconstructed images.
 
 Produces sharper images using adversarial training.
 
+
 🔹 Diffusion Model
+
 
 Generates the most realistic and diverse synthetic images.
 
+
 🔹 Vision Transformer (ViT)
+
 
 Performs multi-class classification across 7 skin lesion types.
 
+
 📦 Dependencies
+
 
 Install the following:
 
@@ -59,33 +65,38 @@ albumentations
 Pillow
 tqdm
 
+
 ⚙ Installation
 1. Create virtual environment
 python -m venv genai_env
 source genai_env/bin/activate        # Linux/Mac
 genai_env\Scripts\activate           # Windows
 
+
 2. Install dependencies
 pip install -r requirements.txt
+
 
 ▶ How to Run
 Train VAE
 python training/train_vae.py
 
+
 Train DCGAN
 python training/train_dcgan.py
+
 
 Train Diffusion Model
 python training/train_diffusion.py
 
+
 Generate Synthetic Images
 python generate_synthetic.py
+
 
 Train Vision Transformer (ViT)
 python training/train_vit.py
 
-Evaluate Model
-python evaluate.py
 
 📊 Results Summary
 Generative Models Comparison
